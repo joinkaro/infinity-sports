@@ -5,7 +5,7 @@ import { ShopProvider } from "@/components/shop-provider";
 import { FloatingWhatsApp } from "@/components/store-chrome";
 
 export const metadata: Metadata = {
-  title: "Nitin Sports | Cricket, Football & Teamwear",
+  title: "Infinity Sports | Cricket, Football & Teamwear",
   description: "Premium cricket and football equipment, protection, accessories and custom teamwear delivered across India.",
   icons: {
     icon: "/favicon.svg",

@@ -55,9 +55,9 @@ export default function Storefront() {
   const filtered = useMemo(()=>products.filter(p=>(sport==="All"||p.sport===sport)&&p.price<=price&&p.rating>=rating),[sport,price,rating]);
   return <main>
     <StoreHeader/>
-    <section className="mobile-offer-banner" aria-label="Nitin Sports first order offer">
-      <a href={WHATSAPP_BASE} target="_blank" rel="noreferrer" aria-label="Order on WhatsApp with the Nitin Sports first-order offer">
-        <Image src="/nitin-mobile-offer-banner.png" alt="Nitin Sports 10 percent first-order offer with safe ordering, customer support and Pan-India service" width={1254} height={1254} sizes="(max-width: 980px) 100vw, 1px" />
+    <section className="mobile-offer-banner" aria-label="Infinity Sports first order offer">
+      <a href={WHATSAPP_BASE} target="_blank" rel="noreferrer" aria-label="Order on WhatsApp with the Infinity Sports first-order offer">
+        <Image src="/infinity-sports-mobile-offer-banner.png" alt="Infinity Sports 10 percent first-order offer with safe ordering, customer support and Pan-India service" width={1254} height={1254} sizes="(max-width: 980px) 100vw, 1px" />
       </a>
     </section>
     <section className="hero" id="top">
