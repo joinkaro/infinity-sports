@@ -5,7 +5,7 @@ import { ArrowUpRight, Menu, MessageCircle, Search, ShoppingBag } from "lucide-r
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { useShop } from "@/components/shop-provider";
 
-export const WHATSAPP_BASE = "https://wa.me/919872085792?text=HEY%20I%20NEED%20ORDER";
+export const WHATSAPP_BASE = "https://wa.link/infinitybookonline";
 export const whatsappLink = (message?:string) => { void message; return WHATSAPP_BASE; };
 
 const links = [
